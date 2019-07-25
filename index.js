@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const prompts = require('prompts');
 
 (async () => {
@@ -10,7 +12,7 @@ const prompts = require('prompts');
   });
 
   const timeCode = response.value
- 
+  
   const timeData = {
     hh: parseInt(timeCode.split(':')[0]), 
     MM: parseInt(timeCode.split(':')[1]),

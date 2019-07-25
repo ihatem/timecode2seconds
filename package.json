@@ -2,13 +2,13 @@
   "name": "timecode2seconds",
   "version": "1.0.0",
   "description": "",
-  "main": "timecode2seconds.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "prompts": "^2.1.0"
+  }, 
+  "bin": {
+    "time2sec": "index.js"
   }
 }
