@@ -7,6 +7,7 @@ $ npm i -g timecode2seconds
 ```
 ## Usage 
 Input a timecode in this format : **HH:MM:SS:mmmm** where 
+
 | Syntax |  Definition  |
 |:------:|:------------:|
 | HH     | Hours        |
